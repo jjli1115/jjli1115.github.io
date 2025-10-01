@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name = "viewport" content="width=device-width, intitial-scale=1.0">
     <title>Welcome to jj.garden</title>
+    
+    <!--Styling-->
     <style>
       body {
         font-family: system-ui, sans-serif;
@@ -14,23 +16,95 @@
       }
       h1 {
         font-size: 2.5rem;
+        text-align: left;
         color: #3a7d44;
       }
       p {
         font-size: 1.2rem;
         max-width: 600px;
         margin: 1rem auto;
+        text-align: left;
       }
       a {
         color: #3a7d44;
         text-decoration; none;
         font-weight: bold;
       }
+      .social-links {
+        margin-top: 2rem;
+        display: flex;
+        gap: 20px;
+      }
+      .social-links a svg {
+        fill: #3a7d44;
+        width: 32px;
+        height: 32px;
+        transition: fill 0.3s;
+      }
+      .social-links a:hover svg {
+        fill: #222
+      }
     </style>
+  
+    <!--Actual Content-->
   </head>
   <body> 
 <h1> Welcome to my garden.</h1>
     <p> Hello. This is my personal digital garden, I hope to fill it with meaningful items.</p>
     <p> You can reach me at <a href="mailto:jj@oramaai.com">jj@oramaai.com</a></p>
+  <div class="social-links">
+    
+    <!-Twitter->
+    <a href="https://x.com/jj11152000" target="_blank" aria-label="Twitter">
+      <svg xmlns = "http: //www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53A4.48 
+                   4.48 0 0 0 22.4.36a9.09 9.09 0 0 1-2.88 
+                   1.1 4.52 4.52 0 0 0-7.86 4.12A12.8 12.8 
+                   0 0 1 3 2.2a4.48 4.48 0 0 0 1.4 6.05A4.41 
+                   4.41 0 0 1 2 7.1v.05a4.52 4.52 0 0 0 
+                   3.64 4.43 4.52 4.52 0 0 1-2.04.08 4.52 
+                   4.52 0 0 0 4.22 3.14A9.05 9.05 0 0 1 
+                   1 19.54a12.79 12.79 0 0 0 6.92 2.03c8.3 
+                   0 12.85-6.9 12.85-12.88 0-.2 0-.39-.01-.58A9.22 
+                   9.22 0 0 0 23 3z"/>
+      </svg>
+      </a>
+
+    <!-Linkedin->
+    <a href="https://www.linkedin.com/in/lijj1/" target="_blank" aria-label="Linkedin">
+      <svg xmlns = "http: //www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M19 0h-14c-2.77 0-5 
+                   2.23-5 5v14c0 2.77 2.23 5 
+                   5 5h14c2.77 0 5-2.23 
+                   5-5v-14c0-2.77-2.23-5-5-5zm-11 
+                   19h-3v-10h3v10zm-1.5-11.27c-.97 
+                   0-1.75-.79-1.75-1.76s.78-1.75 
+                   1.75-1.75 1.75.78 
+                   1.75 1.75-.78 1.76-1.75 1.76zm13.5 
+                   11.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 
+                   0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.9v1.37h.04c.4-.76 
+                   1.38-1.56 2.84-1.56 3.04 0 
+                   3.6 2 3.6 4.59v5.6z"/>
+      </svg>
+      </a>
+
+    <!-Github->
+    <a href="https://github.com/jjli1115" target="_blank" aria-label="Github">
+      <svg xmlns = "http: //www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M12 0a12 12 0 0 0-3.79 
+                   23.4c.6.11.82-.26.82-.58 
+                   0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.38-1.35-1.75-1.35-1.75-1.1-.76.09-.74.09-.74 
+                   1.21.09 1.85 1.25 1.85 1.25 
+                   1.08 1.85 2.83 1.32 3.52 1.01.11-.78.42-1.32.76-1.63-2.67-.3-5.47-1.34-5.47-5.95 
+                   0-1.32.47-2.39 1.24-3.24-.13-.3-.54-1.51.12-3.15 
+                   0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 
+                   3.3-1.23 3.3-1.23.66 1.64.25 2.85.12 3.15.77.85 
+                   1.24 1.92 1.24 3.24 0 4.62-2.81 5.64-5.49 
+                   5.94.43.37.81 1.1.81 2.22 
+                   0 1.61-.02 2.91-.02 3.31 0 .32.22.7.82.58A12 
+                   12 0 0 0 12 0z"/>
+      </svg>
+      </a>
+    
   </body>
 </html>
